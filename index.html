@@ -8,12 +8,22 @@
     <title>M*A*S*H Trivia</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 
 <body>
 
-    <button id="start">start</button>
-
+    <button id="start-game">start</button>
+    <div class="game-container">
+        <div class="question"></div>
+        <div class="timer"></div>
+        <div class="answers">
+            <div data-number="1"></div>
+            <div data-number="2"></div>
+            <div data-number="3"></div>
+            <div data-number="4"></div>
+        </div>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
